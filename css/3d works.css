@@ -81,6 +81,12 @@ a {
     width: 45%;
 }
 
+.dunespice img{
+    padding-left:  1rem; 
+    width: 60%;
+
+}
+
 .dunespice_text{
     display:flex;
     flex-direction: column;
@@ -102,6 +108,13 @@ a {
     flex-direction: column;
     padding: 0rem 0rem 20rem 0rem; 
     width: 45%;
+}
+
+.dunespice img{
+    padding-left:  1rem; 
+    width: 100%;
+
+
 }
 
 .donghae_text{
