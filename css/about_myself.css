@@ -100,13 +100,13 @@ a {
 
 .grade {
     display: flex;
-    align-items: center;
+    align-items: top;
     gap: 3rem;
 }
 
 .skills {
     display: flex;
-    align-items: center;
+    align-items: top;
     gap: 3.7rem;
     margin-top: 1rem;
 }
