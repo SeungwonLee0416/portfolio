@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+.header{
+    margin: 0rem;
+    position: fixed;
+    background-color: white;
+    right: 0;
+    border-left:1px solid black;
+    padding: 0rem 1rem ;
+
+    height: 100vh;
+    font-size: 1rem;
+   
+}
+
+.header li{
+    list-style: none;
+    padding: 1rem 0rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.header li img{
+    width: 1rem;
+    height: 1rem;
+    gap: 0.25rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Homepage/INFO */
+
+.info {
+    width: 100vw;
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.info h1 {
+    font-family: 'inter', sans-serif ;
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 5.5rem;
+    margin: 0rem 1rem;
+}
+
+.info h2 {
+    font-family: 'inter', sans-serif ;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0.5rem 1rem;
+}
+
+.info p {
+    font-family: 'inter', sans-serif ;
+    font-weight: 100;
+    font-size: 1rem;
+    width: 25rem;
+    line-height: 1.5rem;
+    margin: 0.25rem 1rem;
+}
+
+.recent_work h2{
+    margin: 0.25rem 1rem;
+}
+/* END OF Homepage/INFO */
+
+
+
+/* FUll MOON */
+
+.full_moon {
+    display:flex;
+    flex-direction: row;
+    padding: 0rem 0rem 20rem 0rem; 
+}
+
+.full_moon img{
+    padding-left:  1rem; 
+    width: 60%;
+
+}
+
+.full_moon_text{
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: flex-end;
+    padding: 0rem 9rem 0rem 5rem;
+}
+
+/* END OF FUll MOON */
+
+
+
+/* Inline */
+.Inline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0rem 1rem;
+    padding: 0rem 9rem 0rem 0rem;
+}
+/* END OF Inline */
+
+
+
+/* SUNGNYEMUN */
+
+.sungnyemun {
+    display:flex;
+    flex-direction: column;
+    padding: 0rem 0rem 20rem 0rem; 
+    width: 45%;
+}
+
+.sungnyemun_text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sungnyemun_text p2{
+    width: 70%;
+}
+
+/* END OF SUNGNYEMUN */
+
+
+
+/* BANPODAEGYO */
+
+.banpodaegyo {
+    display:flex;
+    flex-direction: column;
+    padding: 0rem 0rem 20rem 0rem; 
+    width: 45%;
+}
+
+.banpodaegyo_text{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.banpodaegyo_text p2{
+    width: 70%;
+}
+
+.banpodaegyo_text .sungnyemun_text {
+    display: inline;
+}
+
+/* END OF BANPODAEGYO */
+
+
+/* PIRELLI TIRE */
+
+.pirelli_tire {
+    display:flex;
+    flex-direction: row;
+    padding: 0rem 0rem 20rem 0rem; 
+}
+
+.pirelli_tire img{
+    margin: 0rem 1rem;
+    width: 60% ;
+}
+
+.pirelli_tire_text{
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: flex-end;
+    padding: 0rem 9rem 0rem 5rem;
+}
+
+/* END OF PIRELLI TIRE */
+
+.sungnyemun_m{
+    display: none;
+}
+
+.banpodaegyo_m{
+    display: none;
+}
+
+
+@media only screen and (max-width: 1023px) {
+
+  
+    .full_moon{
+        display: block;
+        padding: 0rem 0rem 0rem 0rem; 
+    }
+    
+    .full_moon img{
+       display: flex;
+       aspect-ratio: 7/5;
+       width: 75%;
+    }
+
+    .full_moon_text{
+        display:flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: flex-start;
+        padding: 1rem 0rem 10rem 1.25rem;
+    }
+
+
+    .sungnyemun{
+        display: none;
+    }
+
+    .banpodaegyo{
+        display: none;
+    }
+    
+    .Inline {
+        display: block;
+  
+    }
+
+    .sungnyemun_m{
+        display: block;
+        padding: 0rem 0rem 0rem 0rem; 
+        margin: 0rem 0rem 0rem 0rem; 
+    }
+    
+    .sungnyemun_m img{
+       display: flex;
+       width: 100%;
+       padding: 0rem 0rem 0rem 1rem; 
+    }
+
+    .sungnyemun_m_text{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        padding: 1rem 0rem 10rem 1.25rem;
+    }
+
+
+    .banpodaegyo_m{
+        display: block;
+        padding: 0rem 0rem 0rem 0rem; 
+        margin: 0rem 0rem 0rem 0rem; 
+    }
+    
+    .banpodaegyo_m img{
+       display: flex;
+       width: 75%;
+       padding: 0rem 0rem 0rem 1.25rem; 
+    }
+
+    .banpodaegyo_m_text{
+        display:flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: flex-start;
+        padding: 1rem 0rem 10rem 1.25rem;
+    }
+
+
+
+    .pirelli_tire{
+        display: block;
+        padding: 0rem 0rem 0rem 0rem; 
+    }
+    
+    .pirelli_tire img{
+       display: flex;
+       aspect-ratio: 7/5;
+       width: 75%;
+    }
+
+    .pirelli_tire_text{
+        display:flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: flex-start;
+        padding: 1rem 0rem 10rem 1.25rem;
+    }
+
+}
+
+
+@media only screen and (max-width: 639px) {
+
+    
+    .full_moon{
+        display: block;
+        padding: 0rem 0rem 0rem 0rem; 
+    }
+    
+    .full_moon img{
+       display: flex;
+       aspect-ratio: 7/5;
+       width: 75%;
+    }
+
+    .full_moon_text{
+        display:flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: flex-start;
+        padding: 1rem 0rem 10rem 1.25rem;
+    }
+
+
+    .sungnyemun{
+        display: none;
+    }
+
+    .banpodaegyo{
+        display: none;
+    }
+    
+    .Inline {
+        display: block;
+  
+    }
+
+    .sungnyemun_m{
+        display: block;
+        padding: 0rem 0rem 0rem 0rem; 
+        margin: 0rem 0rem 0rem 0rem; 
+    }
+    
+    .sungnyemun_m img{
+       display: flex;
+       width: 100%;
+       padding: 0rem 0rem 0rem 1rem; 
+    }
+
+    .sungnyemun_m_text{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: flex-start;
+        padding: 1rem 0rem 10rem 1.25rem;
+    }
+
+
+    .banpodaegyo_m{
+        display: block;
+        padding: 0rem 0rem 0rem 0rem; 
+        margin: 0rem 0rem 0rem 0rem; 
+    }
+    
+    .banpodaegyo_m img{
+       display: flex;
+       width: 75%;
+       padding: 0rem 0rem 0rem 1.25rem; 
+    }
+
+    .banpodaegyo_m_text{
+        display:flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: flex-start;
+        padding: 1rem 0rem 10rem 1.25rem;
+    }
+
+
+
+    .pirelli_tire{
+        display: block;
+        padding: 0rem 0rem 0rem 0rem; 
+    }
+    
+    .pirelli_tire img{
+       display: flex;
+       aspect-ratio: 7/5;
+       width: 75%;
+    }
+
+    .pirelli_tire_text{
+        display:flex;
+        flex-direction: column;
+        width: 75%;
+        align-items: flex-start;
+        padding: 1rem 0rem 10rem 1.25rem;
+    }
+
+}
