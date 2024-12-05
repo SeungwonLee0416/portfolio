@@ -79,6 +79,13 @@ a {
     flex-direction: column;
     padding: 0rem 0rem 20rem 0rem; 
     width: 45%;
+
+}
+
+.dunespice img{
+    padding-left:  1rem; 
+    width: 100%;
+
 }
 
 .dunespice_text{
