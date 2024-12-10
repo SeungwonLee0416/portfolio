@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 
 .p1 {font-family: 'inter', sans-serif ;}
-.H1 {font-family: 'inter', sans-serif ;}
-.H2 {font-family: 'inter', sans-serif ;}
+.p2 {font-family: 'inter', sans-serif ;}
+.h1 {font-family: 'inter', sans-serif ;}
+.h2 {font-family: 'inter', sans-serif ;}
+.h3 {font-family: 'inter', sans-serif ;}
 
 .header{
     margin: 0rem;
